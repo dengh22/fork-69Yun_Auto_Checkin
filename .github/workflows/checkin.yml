@@ -25,7 +25,7 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-          USER1: ${{ secrets.USER1 }}
+          USER1: ${{ vars.USER1 }}
           PASS1: ${{ secrets.PASS1 }}
           USER2: ${{ secrets.USER2 }}
           PASS2: ${{ secrets.PASS2 }}
